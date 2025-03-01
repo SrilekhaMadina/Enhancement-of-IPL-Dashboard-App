@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.match-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  border: solid transparent;
+  width: 40%;
+  border-radius: 10px;
+  height: 700px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.match-card-image {
+  width: 50%;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.match-card-competing-team {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.match-card-result {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.match-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}
+
+.match-won {
+  color: green;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}
+
+.match-lost {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}

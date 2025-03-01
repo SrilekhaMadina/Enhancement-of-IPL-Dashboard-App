@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.team-card-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #475569;
+  border: 1px solid #475569;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-card-image {
+  width: 40%;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.team-card-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 30px;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
