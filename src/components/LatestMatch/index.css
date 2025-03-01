@@ -1,149 +1,161 @@
 /* Write your CSS here */
-.latest-matches-container {
-  margin-left: 50px;
+.latest-match-container {
+  margin-top: 24px;
 }
 
-.latest-matches-title {
+.latest-match-heading {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 20px;
-  font-weight: bolder;
-  font-style: normal;
-  margin-top: 50px;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  display: block;
 }
 
-.latest-matches-card {
+.latest-match-card {
   display: flex;
   flex-direction: column;
-  background-color: #1e293b;
-  border: solid transparent;
-  width: 95%;
-  border-radius: 10px;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.latest-matches-left-logo-image-container {
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.latest-match-details-logo-container {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-.competing-team-date-venue-result-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
+@media screen and (min-width: 768px) {
+  .latest-match-details-logo-container {
+    width: 65%;
+    padding-left: 32px;
+    padding-right: 0px;
+  }
 }
 
-.latest-Matches-competing-team {
+@media screen and (min-width: 992px) {
+  .latest-match-details-logo-container {
+    width: 60%;
+  }
+}
+
+.latest-match-details-1 {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-1 {
+    width: 48%;
+    align-self: flex-start;
+  }
+}
+
+.latest-match-team-name {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'Bree Serif';
+  font-size: 20px;
 }
 
-.latest-Matches-date {
+@media screen and (min-width: 768px) {
+  .latest-match-team-name {
+    font-size: 36px;
+  }
+}
+
+.latest-match-date {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 30px;
-  font-weight: 800;
-  font-style: normal;
+  font-family: 'Bree Serif';
+  font-size: 18px;
 }
 
-.latest-Matches-venue {
+@media screen and (min-width: 768px) {
+  .latest-match-date {
+    font-size: 24px;
+  }
+}
+
+.match-details {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Bree Serif';
+  font-size: 12px;
 }
 
-.latest-Matches-result {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+@media screen and (min-width: 768px) {
+  .match-details {
+    font-size: 16px;
+  }
 }
 
-.latest-matches-image {
-  width: 40%;
-  height: 300px;
-  margin-right: 30px;
-  margin-top: 30px;
+.latest-match-team-logo {
+  max-height: 60px;
 }
 
-.line {
-  border: 2px solid #475569;
+@media screen and (min-width: 768px) {
+  .latest-match-team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
   width: 100%;
 }
 
-.latest-matches-right-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
 }
 
-.latest-Matches-first-innings-label {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+.latest-match-details-2 {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-.latest-Matches-first-innings-value {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+@media screen and (min-width: 768px) {
+  .latest-match-details-2 {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
 }
 
-.latest-Matches-second-innings-label {
+.latest-match-details-label {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Bree Serif';
+  font-size: 14px;
 }
 
-.latest-Matches-second-innings-value {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+@media screen and (min-width: 768px) {
+  .latest-match-details-label {
+    font-size: 18px;
+  }
 }
 
-.latest-Matches-Man-of-the-match-label {
+.latest-match-details-value {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Bree Serif';
+  font-size: 12px;
 }
 
-.latest-Matches-Man-of-the-match-value {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.latest-Matches-umpires-label {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.latest-Matches-umpires-value {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 25px;
-  font-weight: 500;
-  font-style: normal;
+@media screen and (min-width: 768px) {
+  .latest-match-details-value {
+    font-size: 14px;
+  }
 }
